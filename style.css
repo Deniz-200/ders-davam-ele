@@ -1,0 +1,78 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: end;
+    align-items: end;
+    font-size: 25px;
+    color: white;
+}
+
+section.box {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    margin-top: -100px;
+    padding-top: 70px;
+
+}
+img{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 1000px;
+text-align: center;
+padding: 300px;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.a2{
+    font-size: 100px;
+}
+.a1{
+    font-size: 20px;
+}
+.button{
+    width: 100%;
+    height: 100px;
+    margin-top:-200px ;
+text-align: center;
+justify-content: center;
+display: flex;
+gap: 20px;
+}
+.bt1{
+    width: 300px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+}
+.bt2{
+    width: 300px;
+    height: 80px;
+    background-color: yellow;
+    border: 0;
+    font-size: large;
+    border-radius: 5px;
+}
